@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="reset.css">
+</head>
+<body>
+	<section id="topBar"><h2 class="hidden">Topbar</h2></section><!--end topBar-->
+	<div id="siteContainer">
+    	<header id="mainHeader">
+        	<div id="logo"><a href="index.html"><img src="images/McAuslanLogo.gif" alt="McAuslan"></a>
+            </div><!--end logo-->
+            <nav id="mainNav">
+                <h2 class="hidden">Main Navigation</h2>
+                <button class="hvr-float-shadow"><a href="index.html">Home</a></button> •
+                <button class="hvr-float-shadow"><a href="beer.html">Brews</a></button> •
+                <button class="hvr-float-shadow"><a href="story.html">Story</a></button> •
+                <button class="hvr-float-shadow"><a href="merch.html">Merch</a></button> •
+                <button class="hvr-float-shadow"><a href="contact.html">Contact</a></button>
+            </nav><!--end mainNav-->
+        </header><!--end mainHeader-->
+        <div id="promoImageBig"><img src="Images/Cheers.jpg" alt="Clink"></div><!--end promoImage-->
+       <!--end promo-->
+        <section id="space" class="hidden">
+        <section>
+        <h2>Contact Us</h2>
+            <p>Thanks for visiting. Here is a contact form for business<br>
+               and for those who just want to share their tastes!</p>
+         <br>
+            <h3>Contact Form</h3><!--start form-->
+              <form autocomplete="off" form action="email.php" method="post">
+            <label>How would you rate this attraction?</label>
+            <input type="text" list="dataList" placeholder="rating">
+            <datalist id="dataList">
+                <option>Incredible</option>
+                <option>Amazing</option>
+                <option>Excellent</option>
+                <option>Perfect</option>
+            </datalist>
+            <br><br>
+            <label>Email:</label>
+            <input type="email">
+            <br><br>
+            <label>Your Name:</label>
+            <input type="text" placeholder="First & Last name" required>
+            <br><br>
+            <label>Message:</label>
+            <br>
+            <textarea></textarea>
+            <br><br>
+            <label>Password:</label>
+            <input type="password">
+            <br><br>
+            <label>Telephone Number:</label>
+            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <br><br>
+            <input type="reset">
+            <input type="Submit">
+            </form></section><!--end form-->
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1399.040446219412!2d-73.59140262507974!3d45.468174370482025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88fad211e61174ac!2sPub%20L&#39;Annexe%20St-Ambroise!5e0!3m2!1sen!2sca!4v1581414866389!5m2!1sen!2sca" width="600" height="450" frameborder="10" style="border:30;" allowfullscreen=""></iframe></div>
+        </section><!-- end space-around -->
+        <footer id="mainFooter" class="hidden">
+            <div id="footerNav"><p>
+                <a href="index.html">Home</a> •
+                <a href="beer.html">Brews</a> •
+                <a href="story.html">Story</a> •
+                <a href="merch.html">Merch</a> •
+                <a href="contact.html">Contact</a>
+            </div><!--end FooterNav-->
+            <ul id="socialMedia">
+                <a href=https://twitter.com/mcauslannb><img src="Images/Twitter.png" alt="Twitter"></a>
+                <a href=https://www.facebook.com/bierestambroise><img src="Images/Facebook.png" alt="Facebook"></a>
+                <a href=https://www.instagram.com/stambroisebiere><img src="Images/Instagram.png" alt="Instagram"></a>
+            </ul>
+			<!--end mainFooter-->
+            </div><!--end siteContainer-->
+            <div id="copyRight"><p>Carter Geerts 2020</p></div><!--end Copyright-->
+        </footer><!--end mainFooter-->
+<script src="js/main.js"></script>    
+</body>
+</html>
